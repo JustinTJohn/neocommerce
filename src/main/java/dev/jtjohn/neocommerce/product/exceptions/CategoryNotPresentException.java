@@ -1,4 +1,4 @@
 package dev.jtjohn.neocommerce.product.exceptions;
 
-public class CategoryNotPresentException {
+public class CategoryNotPresentException extends  Throwable{
 }
