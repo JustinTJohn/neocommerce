@@ -44,7 +44,7 @@ public class UserService implements IUserService {
                     user.setRoles(userRequest.getUserRole());
                     return userRepository.save(user);
                 })
-                .orElseThrow(() -> new AlreadyExistException("Oops! " + request.getEmail() + " already exists"));
+                .orElseThrow(() -> new AlreadyExistException("Exception: " + request.getEmail() + " already exists"));
     }
 
     @Override
