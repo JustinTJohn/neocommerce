@@ -12,16 +12,16 @@ public class ProductControllerAdvice {
     @ExceptionHandler(ProductNotPresentException.class)
     public ResponseEntity<ProductResponseSelf> handleInvalidProduct(){
         ProductResponseSelf productResponseSelf = new ProductResponseSelf(null,
-                "Product Doesn't exist from contorller advice ");
+                "Product doesn't exist in controller advice.");
         return new ResponseEntity<>(
                 productResponseSelf, HttpStatus.NOT_FOUND);
     }
 
 
     @ExceptionHandler(ArithmeticException.class)
-    public ResponseEntity<ProductResponseSelf> handleArithmaticException(){
+    public ResponseEntity<ProductResponseSelf> handleArithmeticException(){
         ProductResponseSelf productResponseSelf = new ProductResponseSelf(null,
-                "Something went wrong from contorller advice ");
+                "Error in controller advice.");
         return new ResponseEntity<>(
                 productResponseSelf, HttpStatus.INTERNAL_SERVER_ERROR);
     }
