@@ -1,0 +1,4 @@
+package dev.jtjohn.neocommerce.product.exceptions;
+
+public class ProductNotPresentException {
+}
