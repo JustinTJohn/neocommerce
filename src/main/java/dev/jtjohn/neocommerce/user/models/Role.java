@@ -1,4 +1,4 @@
-package dev.jtjohn.neocommerce.users.models;
+package dev.jtjohn.neocommerce.user.models;
 
 import dev.jtjohn.neocommerce.utils.models.BaseModel;
 import jakarta.persistence.Entity;

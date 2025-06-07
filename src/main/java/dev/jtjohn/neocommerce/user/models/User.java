@@ -1,4 +1,4 @@
-package dev.jtjohn.neocommerce.users.models;
+package dev.jtjohn.neocommerce.user.models;
 
 import java.util.Collection;
 import java.util.HashSet;

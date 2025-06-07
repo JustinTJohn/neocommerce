@@ -1,7 +1,6 @@
-package dev.jtjohn.neocommerce.users.dtos;
+package dev.jtjohn.neocommerce.user.dtos;
 
 import dev.jtjohn.neocommerce.user.models.Role;
-import dev.jtjohn.neocommerce.user.models.User;
 import lombok.Data;
 
 import java.util.Collection;

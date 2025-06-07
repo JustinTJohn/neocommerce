@@ -1,4 +1,4 @@
-package dev.jtjohn.neocommerce.users.services;
+package dev.jtjohn.neocommerce.user.services;
 
 import dev.jtjohn.neocommerce.utils.exceptions.ResourceNotFoundException;
 import dev.jtjohn.neocommerce.user.dtos.CreateUserRequest;

@@ -1,4 +1,4 @@
-package dev.jtjohn.neocommerce.users.controllers;
+package dev.jtjohn.neocommerce.user.controllers;
 
 import dev.jtjohn.neocommerce.utils.dtos.ApiResponse;
 import dev.jtjohn.neocommerce.utils.exceptions.ResourceNotFoundException;

@@ -1,4 +1,4 @@
-package dev.jtjohn.neocommerce.users.repositories;
+package dev.jtjohn.neocommerce.user.repositories;
 
 import java.util.Optional;
 

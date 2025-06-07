@@ -1,4 +1,4 @@
-package dev.jtjohn.neocommerce.users.dtos;
+package dev.jtjohn.neocommerce.user.dtos;
 
 import lombok.Data;
 
