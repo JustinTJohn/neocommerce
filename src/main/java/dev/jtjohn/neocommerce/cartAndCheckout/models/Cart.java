@@ -1,5 +1,6 @@
 package dev.jtjohn.neocommerce.cartAndCheckout.models;
 
+import dev.jtjohn.neocommerce.cartAndCheckout.models.CartItem;
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import dev.jtjohn.neocommerce.utils.models.BaseModel;

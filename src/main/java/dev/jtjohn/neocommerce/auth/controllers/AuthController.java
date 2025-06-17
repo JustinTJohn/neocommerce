@@ -4,7 +4,7 @@ import dev.jtjohn.neocommerce.auth.dtos.JwtResponse;
 import dev.jtjohn.neocommerce.auth.dtos.LoginRequest;
 import dev.jtjohn.neocommerce.auth.jwt.JwtUtils;
 import dev.jtjohn.neocommerce.auth.user.ShopUserDetails;
-import dev.jtjohn.neocommerce.common.dtos.ApiResponse;
+import dev.jtjohn.neocommerce.utils.dtos.ApiResponse;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

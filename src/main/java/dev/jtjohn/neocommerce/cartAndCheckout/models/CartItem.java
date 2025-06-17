@@ -14,8 +14,8 @@ import lombok.Setter;
 
 import java.math.BigDecimal;
 
-@Getter
 @Setter
+@Getter
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
@@ -36,4 +36,9 @@ public class CartItem extends BaseModel {
     public void setTotalPrice(){
         this.totalPrice = this.unitPrice.multiply(new BigDecimal(quantity));
     }
+
+//    public void setCart(Cart cart) {
+//        this.cart = cart;
+//    }
+
 }

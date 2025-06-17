@@ -2,8 +2,8 @@ package dev.jtjohn.neocommerce.cartAndCheckout.controllers;
 
 import dev.jtjohn.neocommerce.cartAndCheckout.models.Cart;
 import dev.jtjohn.neocommerce.cartAndCheckout.service.ICartService;
-import dev.jtjohn.neocommerce.common.dtos.ApiResponse;
-import dev.jtjohn.neocommerce.common.exceptions.ResourceNotFoundException;
+import dev.jtjohn.neocommerce.utils.dtos.ApiResponse;
+import dev.jtjohn.neocommerce.utils.exceptions.ResourceNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
