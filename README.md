@@ -114,7 +114,7 @@ Future Improvements
 
 Getting Started
 ---
-Prerequisites
+Prerequisites:
 - Java 11+
 - Maven
 - Stripe account + API keys
@@ -165,7 +165,7 @@ Contributing
 ---
 Feel free to fork this repo and submit a pull request — contributions are welcome!
 
-License:
+License
 ---
 MIT License
 
