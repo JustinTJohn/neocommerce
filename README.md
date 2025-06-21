@@ -156,7 +156,7 @@ User:
 
 - POST /api/users/reset-password — Reset password
 
-Cart & Checkout
+Cart & Checkout:
 - POST /api/v1/cartItems/item/add — Add item to cart
 
 - POST /api/v1/checkout/create-session — Initiate checkout
